@@ -21,3 +21,14 @@ function translate(digits,strings){
   })
 
 }
+
+function printDigit(stringSet,sign){
+  var text = sign;
+  
+  stringSet.forEach(function(string){
+    text+=string;
+  })
+  text+=sign;
+
+  return text;
+}
