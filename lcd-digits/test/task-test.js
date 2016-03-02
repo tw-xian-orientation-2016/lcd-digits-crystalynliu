@@ -23,6 +23,7 @@ describe('translate()', function() {
   beforeEach(function(){
     strings = loadDigitsString();
   })
+  
   it('correct result when have one digit', function() {
     var result = translate(["9"],strings);
     expect(result).toEqual(["._.\n","|_|\n","..|\n"]);
