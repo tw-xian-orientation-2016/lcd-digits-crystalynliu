@@ -32,3 +32,12 @@ function printDigit(stringSet,sign){
 
   return text;
 }
+
+function lcdDigit(number){
+  var sign = loadSign();
+  var strings = loadDigitsString();
+
+  var digits = split(number);
+  var stringSet = translate(digits,strings);
+  console.log(printDigit(stringSet,sign));
+}
