@@ -16,3 +16,13 @@ Example: 910
 |_| ..| |.|
 ..| ..| |_|
 ```
+
+---
+
+I have three task
+
+task one (split): 5 min 03
+task two (translate): 23 min 37
+task three (print): 9 min 24
+
+complete time : 50 min 37s
